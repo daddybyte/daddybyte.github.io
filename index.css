@@ -7,3 +7,9 @@ body, html {
 	height: 100%;
 	margin: 0;
 }
+
+#text {
+	padding-left: 42%;
+	font-family: 'Rubik', sans-serif;
+}
+

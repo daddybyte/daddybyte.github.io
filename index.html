@@ -1,9 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-<!-- Load the Paper.js library -->
-<script type="text/javascript" src="js/paper.js"></script>
+<!-- //Load the Paper.js library -->
+<!-- <script type="text/javascript" src="js/paper.js"></script> -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.10.3/paper-full.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.2/howler.core.min.js"></script>
+
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<link href="https://fonts.googleapis.com/css?family=Rubik:500" rel="stylesheet">
+
+
+
+
+
+
 <link rel="stylesheet" type="text/css" href="index.css">
 <!-- Define inlined PaperScript associate it with myCanvas -->
 <script type="text/paperscript" canvas="myCanvas">
@@ -200,18 +212,30 @@ function onFrame(event) {
 			rectangles.splice(i, 1);
 			console.log(rectangles);
 		}
-
-
+     
+       
 		
 		
 	}
 	 
 }
+
+
 </script>
 
 </head>
 <body>
 	<canvas id="myCanvas" resize></canvas>
+   
+   <div class="container-fluid">
+	<div class="row">
+  <div id="text" class="col-xs-12 col-sm-6 col-md-8">Tap letters on keyboard</div>
+  
+</div>
+</div>
+	
+
+	
 	
 </body>
 </html>
